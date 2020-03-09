@@ -7,9 +7,9 @@ import codecs
 BASE_URL = "https://sandbox.zenodo.org" #
 # BASE_URL = "https://nadre.ethernet.edu.et"
 # BASE_URL = "https://zenodo.org"
-# TOKEN = "D1OWwYRJGipRLJAnWfnEr8pFzIdwyD31GiM65zoia1qfSW27bmeOwSfNr3JR" #zenodo.org
-# TOKEN = "CmUgItSF0D5UnWGOcNMBiPeUdg5fff2BJGBrMuWwleJwUNFRYTJaAE7B6ta4" #nadre
-TOKEN = "WqrSKiVq4uPPQP4rnCghNHLWadAtwYrnpvk8ZkIzAzywUYnugvihx1hsAKsw" #sandox
+# TOKEN = "" #zenodo.org
+# TOKEN = "" #nadre
+TOKEN = "" #sandox
 
 def upload(metadata, pdf_path):
     if not _is_valid_json(metadata):
